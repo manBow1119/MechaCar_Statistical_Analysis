@@ -9,7 +9,7 @@
 * ![Total Summary of Suspension Coil Data](https://github.com/manBow1119/MechaCar_Statistical_Analysis/blob/main/total_summary_suspension_coil.png)
 
 * A closer examination of the suspension coil data by individual lots reveals the source of the high variance. Lot 1 has equivalent mean and median, with very low resulting variance and standard deviation(both < 1). Lot 2, although very close mean (1500.0) and median (1500.2), demonstrated greater variance (7.47) and resulting stadard deviation (2.73). Lot 3, however, demonstrated considerably more variance, higher standard deviations, and greater differences between central tendency measures. This disaggregated table reveals inconsistencies about suspension coil maintenance at these lots.
-* ![Lot Summary of Suspension Coil Data](https://github.com/manBow1119/MechaCar_Statistical_Analysis/blob/main/total_summary_suspension_coil.png)
+* ![Lot Summary of Suspension Coil Data](https://github.com/manBow1119/MechaCar_Statistical_Analysis/blob/main/Lot%20_summary_suspension_coil.png)
 
 ## T-Test on Suspension Coils
 The breakdown of the suspension coil table revealed potential inconsistencies between manufacturing lots. To determine if the difference is significant, t-tests for each lot mean PSI was compared to population means. 
