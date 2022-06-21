@@ -1,4 +1,11 @@
 # MechaCar_Statistical_Analysis
+### Project Overview
+The purpose of this project was to utilize statistical analysis packages available in the R language to determine the impact on various vehicular measurements on the vehicle's overall fuel-efficiency. Descriptive and inferential statistics were used to compare vehicles across one company's various lots, and recommendations for generalizing this approach to comparing competition are addressed in the summary.
+
+### Technologies
+* R
+* R-libraries:
+    * tidyverse, ggplot2
 
 ## Linear Regression to Predict MPG
 * Using the linear fit model function in R, a linear regression was performed on vehicle's MPG (miles per gallon) compared to the drivetrain, vehicle length, wehicle weight, spoiler angle, and ground clearance. The output below clarifies which of these features impacted the fuel efficiency of the vehicle. Significance codes show that other than the intercept, ground clearance and vehicle length provided a non-random amount of variance to the relative fuel efficiency of the vehicles. Given that the coefficients for each of these significant factors is 3.5 and 6.3 respctively, the "slope" of the regression line is certainly not zero. R-squared values provide some insight as to how well the regression line fits the data. Values of .6825 and .7149 show that the linear model is a modest predictor of mpg. It might provide some general idea of trends, but certainly should not be used to make precise estimations.
